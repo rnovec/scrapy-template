@@ -1,0 +1,20 @@
+# Docker Compose Services
+#
+# For more information about this section see:
+# https://docs.docker.com/compose/
+
+version: '3'
+services:
+  ###
+  # services
+  ###
+  scrapy:
+    build: .
+    network_mode: host
+    command: python -m scrapyd_heroku.manage
+    volumes:
+        - .:/app
+    ports:
+        - "6800:6800"
+    tty: true
+    stdin_open: true

@@ -1,0 +1,16 @@
+
+# Project
+.vscode
+
+# Python
+*.pyc
+venv
+env
+
+# Scrapy
+dbs
+logs
+*.pid
+*.json
+*.xml
+*.csv
