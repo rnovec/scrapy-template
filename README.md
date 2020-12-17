@@ -16,3 +16,5 @@ Install Docker Compose and run:
     $ docker-compuse up
 
 Open browser in  http://127.0.0.1:6800/ and monitoring your bots.
+
+Code with [@RaulNovelo](https://github.com/RaulNovelo)

@@ -9,6 +9,7 @@ idna==2.9
 incremental==17.5.0
 lxml==4.5.0
 parsel==1.5.2
+Pillow==7.1.1
 Protego==0.1.16
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
@@ -20,8 +21,10 @@ queuelib==1.5.0
 Scrapy==2.0.0
 scrapyd==1.2.1
 scrapyd-heroku==0.2.0
+selenium==3.141.0
 service-identity==18.1.0
 six==1.14.0
 Twisted==19.10.0
+urllib3==1.25.8
 w3lib==1.21.0
 zope.interface==4.7.2
